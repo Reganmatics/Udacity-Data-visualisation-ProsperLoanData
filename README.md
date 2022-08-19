@@ -76,4 +76,9 @@ The analys is carrried out in the fashion
 - Some of these exploration will be used in the `Explanatory Eploration` precisely the Multivariate explorations
 
 ## Key insights for presentation
-- For our summary visualizations, we chose bivariate and Multivariate explorations bacuse they capture multiple insights than univariate explorations.
+- The questions of interest were 
+    - What factors affect a loans outcome or status.
+    - What affects the borrower’s APR or interest rate?
+    
+- From this questions, the obvious variables of interest on which our explorations are built on are ; `LoanStatus` ans `BorrowerAPR`. Thus our choice of variables `qualitative` and `quantitative` were chosen based on instinct, and then subjected to the various levels of exploration (`Univariate,..,Multivariate`) to confirm our initial biases. Categorical variables such as `IsBorrowerHomeowner`, `IncomeRange`, `Term`, `Listing Category (numeric)`, etc. are largely within the clients purview, while Numerical variables such as `LenderYield` , `BorrowerApr`, `BorrowerRate`, etc. are largely within the organisations purview. Althou some numerical variables such as `LoanOriginalAmount`, `MonthlyLoanPayment`, etc are within the clients purview, they are lagrely influneced by the organasation by means of limits and other standards. The same is true for some of the categorical variables. 
+- Categorical variables are largely classsifcations based on client psychology, we perform our univariate explorations on a larger number of categorcal variables than numeric variables, this gives us a picture of how clients are likely to respond to organisational standards and discipline, thus, as the data suggests, categorical variables more than numerical variables are `scales` on which our `variables of interest` find a balance.
