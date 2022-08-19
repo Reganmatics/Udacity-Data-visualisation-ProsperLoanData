@@ -76,7 +76,7 @@ The analys is carrried out in the fashion
 - Some of these exploration will be used in the `Explanatory Eploration` precisely the Multivariate explorations
 
 ## Key insights for presentation
-- The questions of interest were 
+- The questions of interest are 
     - What factors affect a loans outcome or status.
     - What affects the borrower’s APR or interest rate?
     
